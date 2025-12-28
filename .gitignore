@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Training outputs (models / adapters)
+outputs/
+
+# OS
+.DS_Store
