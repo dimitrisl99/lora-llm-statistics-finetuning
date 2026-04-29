@@ -10,9 +10,9 @@ from transformers import (
 )
 from peft import LoraConfig, get_peft_model  # PEFT library (LoRA)
 
-# -----------------------
+#===============================
 # Config
-# -----------------------
+#===============================
 
 MODEL_NAME = "HuggingFaceTB/SmolLM2-135M-Instruct"
 DATA_PATH = "data/train.jsonl"
