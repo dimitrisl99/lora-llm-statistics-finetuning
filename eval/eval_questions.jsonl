@@ -1,0 +1,30 @@
+{"instruction": "Explain the difference between descriptive and inferential statistics."}
+{"instruction": "What is the difference between population and sample?"}
+{"instruction": "Define mean, median, and mode."}
+{"instruction": "Explain variance in simple terms."}
+{"instruction": "What is the difference between variance and standard deviation?"}
+{"instruction": "Why is standard deviation useful in statistics?"}
+{"instruction": "Explain what a probability distribution is."}
+{"instruction": "What is the difference between discrete and continuous random variables?"}
+{"instruction": "Explain the Bernoulli distribution with an example."}
+{"instruction": "Explain the binomial distribution with an example."}
+{"instruction": "What is the normal distribution and why is it important?"}
+{"instruction": "What does the central limit theorem state?"}
+{"instruction": "Explain correlation in simple terms."}
+{"instruction": "What is the difference between correlation and causation?"}
+{"instruction": "What is linear regression used for?"}
+{"instruction": "Explain the meaning of a regression coefficient."}
+{"instruction": "What is overfitting in machine learning?"}
+{"instruction": "What is the difference between training data and test data?"}
+{"instruction": "Why do we split data into train and test sets?"}
+{"instruction": "What is cross-validation?"}
+{"instruction": "Explain bias and variance in machine learning."}
+{"instruction": "What is a hypothesis test?"}
+{"instruction": "What is a null hypothesis?"}
+{"instruction": "What is a p-value?"}
+{"instruction": "What does statistical significance mean?"}
+{"instruction": "When should we use a t-test?"}
+{"instruction": "What is a confidence interval?"}
+{"instruction": "Explain Type I and Type II errors."}
+{"instruction": "What is the difference between supervised and unsupervised learning?"}
+{"instruction": "Explain logistic regression and when it is used."}
