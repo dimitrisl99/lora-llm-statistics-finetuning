@@ -127,6 +127,38 @@ python train_lora.py
 
 python infer_lora.py
 
+### Evaluation
+
+The model is evaluated on 30 unseen questions covering statistics and machine learning concepts.
+
+```commandline
+python evaluate.py
+```
+
+Outputs are saved in:
+
+```commandline
+results/base_outputs.jsonl
+results/lora_outputs.jsonl
+```
+
+## Evaluation Results
+
+The LoRA fine-tuned model was compared to the base model on unseen questions.
+
+### Observations
+
+- The fine-tuned model produces more structured and domain-relevant answers.
+- It shows improved consistency in statistical terminology.
+- Responses are generally clearer for conceptual explanations.
+
+### Limitations
+
+- Some outputs are truncated due to generation length limits.
+- Occasional repetition appears in longer responses.
+- Minor factual inaccuracies occur in mathematical formulas.
+- Prompt formatting leakage (e.g., "### Instruction:") may appear.
+
 ## What This Project Demonstrates
 
 - Basic understanding of LLM fine-tuning
@@ -134,4 +166,22 @@ python infer_lora.py
 - Correct handling of prompt formatting and label masking
 - Clear separation between training and inference
 - Practical use of Hugging Face and PyTorch tools
+
+## Future Work
+
+- Expand dataset size and diversity
+- Improve evaluation with quantitative metrics
+- Reduce hallucinations in mathematical reasoning
+- Optimize prompt format and training strategy
+
+## Technologies Used
+
+- Python
+- PyTorch
+- Hugging Face Transformers
+- PEFT (LoRA)
+
+## Author
+
+Dimitris Loukakis
 
